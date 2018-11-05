@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>723</width>
-    <height>300</height>
+    <width>906</width>
+    <height>484</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,22 +17,28 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>0</y>
-      <width>311</width>
-      <height>231</height>
+      <x>40</x>
+      <y>10</y>
+      <width>351</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="title">
-     <string>Read Files and Calculate</string>
+     <string>Read Files and Calculate, test of PM consistence</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
     </property>
     <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>130</y>
-       <width>151</width>
-       <height>81</height>
+       <y>60</y>
+       <width>121</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -43,7 +49,7 @@
      <property name="geometry">
       <rect>
        <x>180</x>
-       <y>80</y>
+       <y>40</y>
        <width>121</width>
        <height>71</height>
       </rect>
@@ -57,27 +63,170 @@
       <rect>
        <x>20</x>
        <y>20</y>
-       <width>151</width>
-       <height>81</height>
+       <width>121</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
       <string>Update th</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Update thdd</string>
+     </property>
+    </widget>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>50</y>
-      <width>211</width>
-      <height>81</height>
+      <x>460</x>
+      <y>20</y>
+      <width>311</width>
+      <height>131</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Bezier Test</string>
+    <property name="title">
+     <string>One time tri curve test</string>
     </property>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>30</y>
+       <width>211</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Trio Test</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>180</y>
+      <width>461</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Animation Libray and PM and tri curve test</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>blow kiss</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>bow</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Juggle</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>the good kid</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>60</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>the bad kid</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>90</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>the ugly kid</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_12">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Begin Recording</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_13">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>130</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>End n Write</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -85,7 +234,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>723</width>
+     <width>906</width>
      <height>25</height>
     </rect>
    </property>

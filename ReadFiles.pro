@@ -48,3 +48,17 @@ else:unix: LIBS += -L$$PWD/../XR1ControllerPM-build/ -lXR1ControllerPM
 INCLUDEPATH += $$PWD/../XR1ControllerPM
 DEPENDPATH += $$PWD/../XR1ControllerPM
 
+
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../XR1ControllerALP-build/release/ -lXR1ControllerALP
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../XR1ControllerALP-build/debug/ -lXR1ControllerALP
+else:unix: LIBS += -L$$PWD/../XR1ControllerALP-build/ -lXR1ControllerALP
+
+INCLUDEPATH += $$PWD/../XR1ControllerALP
+DEPENDPATH += $$PWD/../XR1ControllerALP
+
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../XR1Controller-build/release/ -lXR1Controller
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../XR1Controller-build/debug/ -lXR1Controller
+else:unix: LIBS += -L$$PWD/../XR1Controller-build/ -lXR1Controller
+
+INCLUDEPATH += $$PWD/../XR1Controller
+DEPENDPATH += $$PWD/../XR1Controller
