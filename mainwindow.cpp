@@ -364,13 +364,18 @@ void MainWindow::animation_fun(){
 
     std::vector<double> temp_res = XRA_ptr->getNextState();
 
-    for (uint8_t i = XR1::Knee_X ; i < XR1::Actuator_Total ; i++)
-        XR_ptr->updatingCallback(temp_res[i], i  , XR1::ActualPosition);
+    for (uint8_t i = XR1::Knee_X ; i < XR1::Actuator_Total ; i++){
+
+        XR_ptr->updatingCallback( i  , XR1::ActualPosition , temp_res[i]);
+
+
+
+    }
 
 //    for (double joint_angle : temp_res)
 //        std::cout << joint_angle << " ";
 
-    std::cout << temp_res[XR1::Back_X] <<std::endl;
+//    std::cout << temp_res[XR1::Back_X] <<std::endl;
 
     res_2b_save.push_back(temp_res);
 }
@@ -405,7 +410,7 @@ void MainWindow::on_pushButton_13_clicked()
 
 void MainWindow::on_pushButton_7_clicked()
 {
-    XRA_ptr->setAnimation(127);
+    XRA_ptr->setAnimation(80);
 }
 
 void MainWindow::on_pushButton_6_clicked()
